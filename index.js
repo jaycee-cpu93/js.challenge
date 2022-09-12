@@ -4,12 +4,12 @@ let book = {
     numberOfPages: 100,
     author: "John Smith",
     reading: false,
-}
-function updateReadingStatus(book){
-    book.reading = true;
+updateReadingStatus(){
+    this.reading = true;
     console.log(book)
+    }
 }
-updateReadingStatus(book)
+book.updateReadingStatus()
 
 bookArr = [
         {
